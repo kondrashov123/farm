@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Libre Franklin;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+.row{
+	display: flex;
+}
+.spase-between{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container{
+	max-width: 1110px;
+	margin: auto;
+}
+
+.section_title{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #333;
+}
+
+/* header */
+.header{
+	padding: 93px 0 240px 0;
+	background: linear-gradient(to right, rgba(198, 108, 73, 0.3),rgba(198, 108, 73, 0.3)),url(img/meat.jpg);
+}
+.header *{
+	color:#fff;
+}
+
+.top_line{
+	margin-bottom: 145px;
+}
+.logo{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+.menu_item{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	margin-left: 49px;
+}
+
+.header_texts h1{
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 78px;
+	margin-bottom: 30px;
+}
+.header_texts h2.subtitle{
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 106px;
+}
+.header_link.products{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration-line: underline;
+}
+.header_link.products:hover{
+	text-decoration-line: none;
+}
+
+/* about */
+.about{
+	padding: 93px 0 115px 0;
+}
+.about *{
+	color: #333;
+}
+.about .section_title{
+	margin-bottom: 76px;
+}
+.about_text{
+	text-align: justify;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/* products */
+section.products{
+	padding: 93px 0 145px 0;
+	background: #fffaf2;
+}
+
+section.products .section_title{
+	margin-bottom: 86px;
+}
+.products .cow{
+	max-width: 350px;
+	max-height: 340px;
+}
+
+.types{
+	width: 100%;
+	margin-left: 104px;
+}
+
+.type_list{
+	margin-right: 46px;
+}
+.type_list .list_item{
+	margin-bottom: 24px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+}
+.color_item{
+	margin-top: 8px;
+	margin-bottom: 37px;
+	width: 77px;
+	height: 12px;
+	content: " ";
+}
+.diagram{
+	margin-left: 109px;
+}
+
+/* footer */
+.footer{
+	padding: 93px 0 70px 0;
+}
+
+.footer .section_title{
+	margin-bottom: 51px;
+}
+.footer .block{
+	display: flex;
+	flex-direction: column;
+}
+.footer_link{
+	margin-bottom: 14px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333;
+}
+.footer_contact_link{
+	margin-bottom: 14px;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #333;
+}
+.arrow_to_top{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
