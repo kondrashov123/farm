@@ -29,6 +29,12 @@
 	line-height: 29px;
 	color: #333;
 }
+@media(max-width: 870px){
+	.section_title{
+		text-align: center;
+	}
+}
+
 
 /* header */
 .header{
@@ -75,6 +81,12 @@
 .header_link.products:hover{
 	text-decoration-line: none;
 }
+@media(max-width: 870px){
+	.header_texts *{
+		text-align: center;
+	}
+}
+
 
 /* about */
 .about{
@@ -92,11 +104,22 @@
 	font-size: 18px;
 	line-height: 30px;
 }
+@media(max-width: 870px){
+	.about *{
+		text-align: center;
+	}
+}
 
 /* products */
 section.products{
 	padding: 93px 0 145px 0;
 	background: #fffaf2;
+}
+@media(max-width: 870px){
+	section.products .row{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }
 
 section.products .section_title{
@@ -106,14 +129,32 @@ section.products .section_title{
 	max-width: 350px;
 	max-height: 340px;
 }
-
 .types{
 	width: 100%;
 	margin-left: 104px;
+	justify-content: space-around;
+}
+@media(max-width: 870px){
+	.types{
+		margin-left: 0;
+		flex-wrap: wrap;
+		margin-top: 20px;
+	}
+}
+@media(max-width: 540px){
+	.types{
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .type_list{
 	margin-right: 46px;
+}
+@media(max-width: 870px){
+	.type_list{
+
+	}
 }
 .type_list .list_item{
 	margin-bottom: 24px;
@@ -130,6 +171,11 @@ section.products .section_title{
 }
 .diagram{
 	margin-left: 109px;
+}
+@media(max-width: 540px){
+	.diagram{
+		margin-left: 0;
+	}
 }
 
 /* footer */
