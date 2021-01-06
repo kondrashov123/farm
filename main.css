@@ -280,6 +280,7 @@ section.products .section_title{
 @media(max-width: 870px){
 	.footer .blocks_list{
 		justify-content: space-around;
+		flex-wrap: wrap;
 	}
 }
 
@@ -306,4 +307,9 @@ section.products .section_title{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+}
+@media(max-width: 540px){
+	.footer_menu{
+		flex-direction: column;
+	}
 }
